@@ -8,6 +8,7 @@ html,body{
     padding: 0px;
     margin: 0px;
 }
+/* Menu Board */
 .menu{
     background-color: #D1DFF9;
     background-image: linear-gradient(to bottom,#DBC2DF, #d1dff9);
@@ -26,7 +27,7 @@ html,body{
 #menu-title{
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 36px;
+    margin-bottom: 25px;
     width: 100%;
     font-size: 65px;
     font-family: 'Bad Script', cursive;
@@ -34,15 +35,19 @@ html,body{
     /* #6CABF7; */
 }
 .menu-option{
-    padding: 10px;
-    margin: 8px;
-    font-size: 30px;
+    padding: 3px;
+    margin: 5px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     border: 3px solid #FFF;
     /* #6CABF7; */
     width: 100%;
+    color: #fff;
 }
+
+/* First Page */
 .who-am-i{
+    padding: 30px;
     position: fixed;
     top:0px;
     right: 0px;
@@ -50,17 +55,54 @@ html,body{
     height: 100%;
     overflow: auto;
     background-color: #F3D9E2;
-    background-image: linear-gradient(to bottom right, #F6E5DB,#ECB5D2);
+    background-image: linear-gradient(to bottom right,#F1BAD9,#FDE2D7);
+    text-align: center;
+
 }
 .my-name{
     color: #fff;
     font-family: 'Bad Script', cursive;
     font-size: 100px;
     text-align: center;
-    padding: 100px;
 
 }
+.intro-to-me{
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
 
+}
+.my-image{
+    height: 350px;
+    width: auto;
+    border: 3px solid #fff;
+    margin: 20px;
+}
+
+/* About Me */
+.page-title{
+    color: #fff;
+    font-family: 'Bad Script', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+.about-me{
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.main-content{
+    margin-top: 33%;
+    margin-bottom: auto;
+}
+.aboutme-img{
+    margin-top: 50%;
+    margin-bottom: auto;
+}
+
+/* Footer */
 footer{
     background-color: #DBC2DF;
     position: fixed;
